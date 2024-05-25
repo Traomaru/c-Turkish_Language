@@ -7,7 +7,7 @@ main()
 
 	int sayi,milyar,yuzmilyon,onmilyon,milyon,yuzbinler,onbinler,binler,yuzler,onlar,birler;
 	int a,b,c,d,e,f,g;
-	cout<<"\n\n  -----====YAZILAN TAMSAYININ EN BÜYÜK RAKAMINI YAZDIRAN PROGRAM====-----";
+	cout<<"\n\n  -----====YAZILAN TAMSAYININ EN BÃœYÃœK RAKAMINI YAZDIRAN PROGRAM====-----";
 	cout<<"\n\nTAMSAYIYI YAZINIZ :";
 	cin>> sayi;
 	
@@ -39,43 +39,43 @@ main()
 	//////////////////////////////////////////////////////////////////////
 	 if(milyar>=yuzmilyon&&milyar>=onmilyon&&milyar>=milyon&&milyar>=yuzbinler&&milyar>=onbinler&&milyar>=binler&&milyar>=yuzler&&milyar>=onlar&&milyar>=birler)
 	 {
-		cout<<"\n\nEN BÜYÜK RAKAM :"<< milyar<<"(MİLYARLAR BASAMAĞI)"<<endl;
+		cout<<"\n\nEN BÃœYÃœK RAKAM :"<< milyar<<"(MÄ°LYARLAR BASAMAÄI)"<<endl;
 	 }
 	 if(yuzmilyon>=milyar&&yuzmilyon>=onmilyon&&yuzmilyon>=milyon&&yuzmilyon>=yuzbinler&&yuzmilyon>=onbinler&&yuzmilyon>=binler&&yuzmilyon>=yuzler&&yuzmilyon>=onlar&&yuzmilyon>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< yuzmilyon<<"(YUZMİLYONLAR BASAMAĞI)"<<endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< yuzmilyon<<"(YÃœZMÄ°LYONLAR BASAMAÄI)"<<endl;
 	 }
 	 if(onmilyon>=milyar&&onmilyon>=yuzmilyon&&onmilyon>=milyon&&onmilyon>=yuzbinler&&onmilyon>=onbinler&&onmilyon>=binler&&onmilyon>=yuzler&&onmilyon>=onlar&&onmilyon>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< onmilyon<<"(ONMİLYONLAR BASAMAĞI)"<<endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< onmilyon<<"(ONMÄ°LYONLAR BASAMAÄI)"<<endl;
 	 }
 	 if(milyon>=milyar&&milyon>=yuzmilyon&&milyon>=onmilyon&&milyon>=yuzbinler&&milyon>=onbinler&&milyon>=binler&&milyon>=yuzler&&milyon>=onlar&&milyon>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< milyon<< "(MİLYONLAR BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< milyon<< "(MÄ°LYONLAR BASAMAÄI)"<< endl;
 	 }
 	 if(yuzbinler>=milyar&&yuzbinler>=yuzmilyon&&yuzbinler>=onmilyon&&yuzbinler>=milyon&&yuzbinler>=onbinler&&yuzbinler>=binler&&yuzbinler>=yuzler&&yuzbinler>=onlar&&yuzbinler>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< yuzbinler<< "(YUZBİNLER BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< yuzbinler<< "(YÃœZBÄ°NLER BASAMAÄI)"<< endl;
 	 }
 	 if(onbinler>=milyar&&onbinler>=yuzmilyon&&onbinler>=onmilyon&&onbinler>=milyon&&onbinler>=yuzbinler&&onbinler>=binler&&onbinler>=yuzler&&onbinler>=onlar&&onbinler>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< onbinler<<"(ONBİNLER BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< onbinler<<"(ONBÄ°NLER BASAMAÄI)"<< endl;
 	 }
 	 if(binler>=milyar&&binler>=yuzmilyon&&binler>=onmilyon&&binler>=milyon&&binler>=yuzbinler&&binler>=onbinler&&binler>=yuzler&&binler>=onlar&&binler>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< binler<< "(BİNLER BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< binler<< "(BÄ°NLER BASAMAÄI)"<< endl;
 	 }
 	 if(yuzler>=milyar&&yuzler>=yuzmilyon&&yuzler>=onmilyon&&yuzler>=milyon&&yuzler>=yuzbinler&&yuzler>=onbinler&&yuzler>=binler&&yuzler>=onlar&&yuzler>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< yuzler <<"(YUZLER BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< yuzler <<"(YÃœZLER BASAMAÄI)"<< endl;
 	 }
 	 if(onlar>=milyar&&onlar>=yuzmilyon&&onlar>=onmilyon&&onlar>=milyon&&onlar>=yuzbinler&&onlar>=onbinler&&onlar>=binler&&onlar>=yuzler&&onlar>=birler)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< onlar<< "(ONLAR BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< onlar<< "(ONLAR BASAMAÄI)"<< endl;
 	 }
 	 if(birler>=milyar&&birler>=yuzmilyon&&birler>=onmilyon&&birler>=milyon&&birler>=yuzbinler&&birler>=onbinler&&birler>=binler&&birler>=yuzler&&birler>=onlar)
 	 {
-	 	cout<<"\n\nEN BÜYÜK RAKAM :"<< birler<< "(BİRLER BASAMAĞI)"<< endl;
+	 	cout<<"\n\nEN BÃœYÃœK RAKAM :"<< birler<< "(BÄ°RLER BASAMAÄI)"<< endl;
 	 }
 cout<<"\n************************************************************\n";
 
